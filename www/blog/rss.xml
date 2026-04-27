@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>meatescargatoire rss</title>
+    <link>https://meatescargatoire.com/</link>
+    <description>meatescargatoire rss</description>
+    <lastBuildDate>Wed, 16 Apr 2026 18:59:38 GMT</lastBuildDate>
+
+    <managingEditor>malorie</managingEditor>
+    <webMaster>malorie</webMaster>
+
+    <item>
+      <title>Hello World</title>
+      <link>https://meatescargatoire.com/blog.posts/welcome.html</link>
+      <guid>https://meatescargatoire.com/blog.posts/welcome.html</guid>
+      <pubDate>Wed, 11 Mar 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[
+        <h2 id="welcome">
+                welcome
+        </h2>
+        <h3>
+                2026-03-11
+        </h3>
+
+        <p>
+        Welcome to my blog/website "meatescargatoire" I've wanted to have my own website for a while now though actually coming around to making it i never looked forward too because I hate frontent/web stuff.
+        <br>
+        <br>
+        This post probably won't have much too it but I'll try to make some more indpeth ones before putting the site up... sadly my writers block is awful and i can't make words
+        </p>
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>

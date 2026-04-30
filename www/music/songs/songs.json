@@ -76,6 +76,41 @@
                         "album": "Cover me in Freezerburn",
                         "url": "songs/freezerburn/Freezerburn4.mp3",
                         "cover_art_url": "songs/freezerburn/Freezerburn.webp"
+                },
+                {
+                        "name": "outsider",
+                        "artist": "Protocol Gone",
+                        "album": "awake to the digital era",
+                        "url": "songs/awake/awake1.mp3",
+                        "cover_art_url": "songs/awake/awake.webp"
+                },
+                                {
+                        "name": "dime museum",
+                        "artist": "Protocol Gone",
+                        "album": "awake to the digital era",
+                        "url": "songs/awake/awake2.mp3",
+                        "cover_art_url": "songs/awake/awake.webp"
+                },
+                                {
+                        "name": "television",
+                        "artist": "Protocol Gone",
+                        "album": "awake to the digital era",
+                        "url": "songs/awake/awake3.mp3",
+                        "cover_art_url": "songs/awake/awake.webp"
+                },
+                                {
+                        "name": "bodies for the system",
+                        "artist": "Protocol Gone",
+                        "album": "awake to the digital era",
+                        "url": "songs/awake/awake4.mp3",
+                        "cover_art_url": "songs/awake/awake.webp"
+                },
+                {
+                        "name": "flowers.jpeg",
+                        "artist": "Protocol Gone",
+                        "album": "awake to the digital era",
+                        "url": "songs/awake/awake5.mp3",
+                        "cover_art_url": "songs/awake/awake.webp"
                 }
         ],
         "playlists": {
@@ -98,6 +133,16 @@
                                 8,
                                 9,
                                 10
+                        ]
+                },
+                "album_awake": {
+                "title": "awake to the digital era",
+                        "songs": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
                         ]
                 }
         }

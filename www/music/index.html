@@ -111,16 +111,46 @@
                 </div>
         </div>
 
+        <!-- Freezerburn Album -->
+        <h2 id="awake">
+                <a href="#awake">awake to the digital era - Protocol Gone</a>
+        </h2>
+        <div class="cover">
+                <img src="songs/awake/awake.webp" alt="awake to the digital era Album cover">
+        </div>
+
+        <div id="player-awake" class="player-container">
+                <ul class="playlist" id="playlist-awake">
+                        <li data-amplitude-song-index="0">outsider - Protocol Gone</li>
+                        <li data-amplitude-song-index="1">dime museum - Protocol Gone</li>
+                        <li data-amplitude-song-index="2">television - Protocol Gone</li>
+                        <li data-amplitude-song-index="3">bodies for the system - Protocol Gone</li>
+                        <li data-amplitude-song-index="4">flowers.jpeg - Protocol Gone</li>
+                </ul>
+
+                <div class="player">
+                        <div class="controls">
+                                <span id="prev-btn-awake">prev</span>
+                                <span class="amplitude-play-pause" id="play-pause-awake"></span>
+                                <span id="next-btn-awake">next</span>
+                        </div>
+                        <span class="song-title" id="song-title-awake"></span>
+                        <div class="ascii-progress2">
+                                <span id="progress-line-awake">[----------] 00:00 / 00:00</span>
+                        </div>
+                </div>
+        </div>
+
         <br>
         <div class="social">
-                <a href="/music/songs/freezerburn/freezerburn.zip">Album Download</a>
+                <a href="/music/songs/awake/awake.zip">Album Download</a>
                 <br>
-                <a href="magnet:?xt=urn:btih:cbdeaebcc2098ff33cdee511dc0c315a2cfde9b2&dn=freezerburn&xl=705515485">Album
+                <a href="magnet:?xt=urn:btih:af283894057613b018e9aea2af9d1b2b6da8ea89&dn=awake%20to%20the%20digital%20era&xl=511748198">Album
                         Torrent</a>
                 <br>
-                <a href="https://youtube.com/playlist?list=PLE01UBH8_c7qCq2zCJxvoVKnL608PZi5S">Youtube Album</a>
+                <a href="https://www.youtube.com/playlist?list=PLE01UBH8_c7pvE27YkGSl8w4-vXurq_ro">Youtube Album</a>
                 <br>
-                <a href="https://protocolgone.bandcamp.com/album/cover-me-in-freezerburn">Bandcamp Album</a>
+                <a href="https://protocolgone.bandcamp.com/album/awake-to-the-digital-era">Bandcamp Album</a>
         </div>
 
         <script>
@@ -290,6 +320,7 @@
                                         const allSongs = data.songs;
                                         const songs2024 = allSongs.slice(0, 7);
                                         const songsFreezerburn = allSongs.slice(7, 11);
+                                        const songsAwake = allSongs.slice(11, 17);
 
                                         const player2024 = new AlbumPlayer({
                                                 containerId: 'player-2024works',
@@ -312,6 +343,16 @@
                                                 progressId: 'progress-line-freezerburn',
                                                 songs: songsFreezerburn
                                         });
+                                        const playerAwake = new AlbumPlayer({
+                                                containerId: 'player-awake',
+                                                playlistId: 'playlist-awake',
+                                                prevId: 'prev-btn-awake',
+                                                nextId: 'next-btn-awake',
+                                                playPauseId: 'play-pause-awake',
+                                                titleId: 'song-title-awake',
+                                                progressId: 'progress-line-awake',
+                                                songs: songsAwake
+                                        });        
 
                                         console.log('Custom players ready (CSS class‑based)');
                                 })

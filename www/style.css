@@ -1,26 +1,42 @@
+@font-face {
+  font-family: 'AutoEGA';
+  font-style: normal;
+  font-weight: 400;
+  src: local('AutoEGA'), local('AutoEGA'), url(Web437_STB_AutoEGA_8x14.woff) format('woff');
+}
 html {
         scroll-behavior: smooth;
 }
 
 body {
         max-width: 700px;
-        margin: 0 auto;
+        margin: auto auto;
         padding: 0 20px;
         font-size: 16px;
+        color: white;
+        background-image: url(gallery/images/background.webp);
 }
 
+a {
+        color: red;
+}
 h1 {
-        margin-right: 5px;
-        font-family: Serif;
+        font-family: AutoEGA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 nav a {
-        margin-right: 5px;
-        font-family: Serif;
+        font-size: 40px;
+        font-family: AutoEGA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 h2 {
-        font-family: Serif;
+        font-family: monospace;
 }
 
 h2 a {
@@ -35,7 +51,7 @@ h2 a:visited {
 
 h2 a::after {
         content: " ¶";
-        opacity: 0;
+        opacity:        0;
         margin-left: 3px;
         font-size: 0.8em;
 }
@@ -50,16 +66,40 @@ h2 a:hover {
 
 p {
         font-size: 14px;
-        font-family: monospace
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+#Blog {
+        font-size: 14px;
+        font-family: monospace;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
 }
 
 h3 {
+        font-family: monospace;
         font-size: 12px;
+}
+
+h4 {
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .social {
         font-family: Serif;
         font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 }
 
 .cover img {
@@ -69,8 +109,30 @@ h3 {
 }
 
 
-ul.posts {
-        padding-left: 20px;
-        list-style-type: circle;
-        font-family: Serif;
+ol.posts {
+        padding-left: 0;
+        font-size: 24px;
+        list-style-type: none;
+        font-family: monospace;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: red;
+}
+ol.songs {
+        padding-left: 0;
+        font-size: 20px;
+        list-style-type: pad-three-digits;
+        font-family: monospace;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: red;
+}
+@counter-style pad-three-digits {
+  system: numeric;
+  symbols: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9";
+  pad: 3 "0";
 }

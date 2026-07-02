@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>meatescargatoire rss</title>
+    <language>en-us</language>
     <link>https://meatescargatoire.com/</link>
     <description>meatescargatoire rss</description>
-    <lastBuildDate>Wed, 16 Apr 2026 18:59:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 2 Jul 2026 06:27:58 GMT</lastBuildDate>
+    <atom:link href="https://meatescargatoire.com/blog/rss.xml"
+           rel="self"
+           type="application/rss+xml" />
 
-    <managingEditor>malorie</managingEditor>
-    <webMaster>malorie</webMaster>
+    <managingEditor>meatescargatoire@gmail.com</managingEditor>
+    <webMaster>meatescargatoire@gmail.com</webMaster>
 
     <item>
       <title>Hello World</title>
-      <link>https://meatescargatoire.com/blog.posts/welcome.html</link>
-      <guid>https://meatescargatoire.com/blog.posts/welcome.html</guid>
+      <link>https://meatescargatoire.com/blog/posts/welcome.html</link>
+      <guid>https://meatescargatoire.com/blog/posts/welcome.html</guid>
       <pubDate>Wed, 11 Mar 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[
         <h2 id="welcome">
@@ -30,6 +35,30 @@
         </p>
       ]]></description>
     </item>
+        <item>
+      <title>updates</title>
+      <link>https://meatescargatoire.com/blog/posts/updates.html</link>
+      <guid>https://meatescargatoire.com/blog/posts/updates.html</guid>
+      <pubDate>Thu, 2 Jul 2026 06:27:00 GMT</pubDate>
+      <description><![CDATA[
+        <h2 id="updates">
+                updates
+        </h2>
+        <h3>
+                2026-07-02
+        </h3>
 
-  </channel>
+<pre>I finally stopped rotting away for two seconds and have decided to finally update this website, as I've been meaning to.
+As you can see I finally got around to themeing the site. (you might need to clear your browser cache)
+the old version also was very janky and relied on javascript primarly for the music features but now, the site is 100% javascript free!
+
+Now im trying to figure out what I should work on next I've been drowned in depression for a few months? now with no luck in finding a job either.
+My applications keep getting most likely autodeclined in a just a few a hours a lot of times at like 4am my time, (cst)
+so now im trying to figure out if there's anything I can even do anymore, I hardly have any savings left as ive been using it to pay my phonebill. 
+and I've been threatened with being kicked out more times than i can count. (and i've already been kicked out by these people before in the past)
+
+so I might just be fucked I guess.</pre>
+      ]]></description>
+    </item>
+</channel>
 </rss>

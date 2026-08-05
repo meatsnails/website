@@ -116,7 +116,7 @@ ol.posts {
         color: red;
 }
 ol.songs {
-        padding-left: 0;
+        padding-left: 20;
         font-size: 20px;
         list-style-type: pad-three-digits;
         font-family: monospace;
